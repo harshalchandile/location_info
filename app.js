@@ -5,7 +5,7 @@ const fs = require('fs')
 const config = require('./config.js')
 const request = require('request')
 
-app.listen(3000,() =>
+app.listen(config.port,() =>
 {
     console.log("Magic happens on port "+ config.port)
 })
